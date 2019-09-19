@@ -91,7 +91,7 @@ def main():
     args = sys.argv[1:]
 
     if not args:
-        print('Usage: logsearch_tool.py "Keyword1" "Keyword2" "Keyword3" ...')
+        print('Usage: ./logsearch_tool.py "Keyword1" "Keyword2" "Keyword3" ...')
         sys.exit(1)
 
     root_dir = input("Root Directory : ")  # path to the root directory to search
